@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato";
+}
+
+body {
+  background-image: url("./imgs/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hime {
+  position: absolute;
+  margin-left: 447px;
+  margin-top: 76px;
+}
+
+.container-chat {
+  color: #e8512e;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.chat {
+  background-color: #d2b5e6;
+  width: 700px;
+  height: 750px;
+  border-radius: 6px;
+  border-style: groove;
+  color: white;
+}
+
+.teste {
+  display: flex;
+  height: 500px;
+  position: relative;
+}
+
+.chat-input {
+  width: 700px;
+}
+
+.logo {
+  font-family: "Rubik Distressed", cursive;
+}
+
+.subtext {
+  font-family: "Secular One", sans-serif;
+  font-weight: bold;
+  font-style: oblique;
+}
+
+.imgAnime {
+  width: 150px;
+  height: 200px;
+}
+
+.textUser {
+  color: black;
+  text-align: right;
+}
+
+.textError {
+  color: red;
+}
+
+p {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: black;
+}
